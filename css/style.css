@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 50px #ccc;
+}
+
+.menu-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 100%;
+}
+
+.menu-right {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.menu-item {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #ee95f1;
+}
+
+.container-header {
+  display: inline-block;
+  height: 700px;
+  width: 100%;
+}
+
+.container-header img {
+  background: no-repeat center;
+  object-fit: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.title {
+  color: #ee95f1;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.paragraph {
+  text-align: left;
+  margin: 20px 0px;
+}
+
+.skills {
+  margin: 20px 0px;
+  padding: 30px 0px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 30px auto;
+}
+
+.title-table {
+  color: #ee95f1;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+.item-skill td {
+  width: 25%;
+  text-align: center;
+  padding: 15px 5px;
+  border: solid 1px #ee95f1;
+}
+
+.item-skill-img {
+  width: 20%;
+}
+
+.section-contact {
+  margin: 50px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-contact {
+  margin: 20px;
+  width: 50px;
+  transition: transform 150ms linear;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ee95f1;
+  color: #fff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
